@@ -1,0 +1,36 @@
+/* Use the font-family property to set the body font for the website to a sans-serif font */
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+
+    /* Use the font-variant property to make “ITPFL2 Pet Shop” display as small caps */
+    font-variant: small-caps;
+    /* Use the color property to make “ITPFL2 Pet Shop” maroon */
+    color: maroon;
+    /* Use the text-shadow property to add a gray shadow to ITPFL2 Pet Shop */
+    text-shadow: 2px 2px gray;
+}
+
+/* Use the ::first-letter pseudo-element and the font-size property to make the first letter of Looking for a pet? larger than the rest of the heading */
+h2::first-letter {
+    font-size: 36px;
+}
+
+ul>li>a {
+    color: maroon;
+}
+
+/* Use the :hover and :focus pseudo-classes and the text-decoration property to make the links change color if they are focused on or hovered over */
+a:hover, a:focus {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
